@@ -93,6 +93,7 @@ header {
   background-color: var(--bg-color);
   color: var(--silver);
   padding: 4rem 2rem;
+  border-bottom: 1px solid var(--silver);
 }
 
 #about .container {
