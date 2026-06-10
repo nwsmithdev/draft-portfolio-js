@@ -4,11 +4,17 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Nwsmith.dev</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Space+Grotesk:wght@300..700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <header>
-      <div id="logo">Nwsmith.dev</div>
+      <div id="logo">Nwsmith<span id="logo-color">.dev</span></div>
       <nav id="navbar">
         <ul id="nav-links">
           <li><a href="#about">About</a></li>
@@ -19,7 +25,24 @@
     </header>
 
     <main>
-      <section id="about"></section>
+      <section id="about">
+        <div class="container">
+          <div id="about-text">
+            <p>Hi, I'm</p>
+            <h1 id="about-name">Nick</h1>
+            <p id="about-intro">
+              I'm a Full Stack Engineer with 2+ years of experience building web
+              applications that are clean, interactive, and user-focused. I love
+              turning ideas into creative solutions, whether that means
+              designing smooth front-end experiences or building the logic
+              that's powering a project behind the scenes.
+            </p>
+          </div>
+          <div id="about-img">
+            <img src="images/nwsmith.png" alt="Image of Nick Smith" />
+          </div>
+        </div>
+      </section>
 
       <section id="projects"></section>
 
