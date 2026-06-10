@@ -41,7 +41,7 @@ header {
   color: var(--blue);
   font-weight: 700;
   font-size: 1.1rem;
-  margin-left: 1rem;
+  margin-left: 2rem;
 }
 
 #logo-color {
@@ -51,13 +51,14 @@ header {
 #nav-links {
   display: flex;
   gap: 1rem;
-  margin-right: 1rem;
+  margin-right: 2rem;
   list-style: none;
 }
 
 #nav-links a {
   position: relative;
   font-family: var(--font-headings);
+  font-weight: 600;
   color: var(--blue);
   text-decoration: none;
 }
@@ -143,5 +144,5 @@ header {
   object-fit: cover;
   border-radius: 12px;
   border: 2px solid var(--blue);
-  box-shadow: 0 0 18px rgba(79, 195, 255, 0.45);
+  box-shadow: 0 0 15px rgba(79, 195, 255, 0.45);
 }
