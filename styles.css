@@ -207,15 +207,21 @@ header {
 
 .project-card.open .project-details {
   display: block;
+  padding-left: 1rem;
+  margin-top: 1rem;
+}
+
+.project-details h4 {
+  margin: 1rem 0;
 }
 
 .project-tag {
   display: inline-block;
-  padding: 0.35rem 0.75rem;
+  padding: 0.25rem 0.65rem;
   margin-bottom: 1rem;
 
-  font-size: 0.8rem;
-  font-weight: 600;
+  font-size: 0.7rem;
+  font-weight: 500;
 
   color: var(--blue);
   background-color: rgba(79, 195, 255, 0.08);
