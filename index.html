@@ -10,9 +10,24 @@
       href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Space+Grotesk:wght@300..700&display=swap"
       rel="stylesheet"
     />
+    <script
+      src="https://kit.fontawesome.com/82b55b0607.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="/your-path-to-fontawesome/css/fontawesome.css"
+      rel="stylesheet"
+    />
+    <link href="/your-path-to-fontawesome/css/brands.css" rel="stylesheet" />
+    <link href="/your-path-to-fontawesome/css/solid.css" rel="stylesheet" />
+    <link
+      href="/your-path-to-fontawesome/css/sharp-solid.css"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
+    <!-- Header Section -->
     <header>
       <div id="logo">Nwsmith<span id="logo-color">.dev</span></div>
       <nav id="navbar">
@@ -23,7 +38,7 @@
         </ul>
       </nav>
     </header>
-
+    <!-- About section -->
     <main>
       <section id="about">
         <div class="container">
@@ -37,6 +52,11 @@
               designing smooth front-end experiences or building the logic
               that's powering a project behind the scenes.
             </p>
+            <div id="about-icons">
+              <i class="fa-brands fa-js fa-xl"></i>
+              <i class="fa-brands fa-react fa-xl"></i>
+              <i class="fa-brands fa-python fa-xl"></i>
+            </div>
           </div>
           <div id="about-img">
             <img src="images/nwsmithphoto.png" alt="Image of Nick Smith" />
@@ -44,9 +64,57 @@
         </div>
       </section>
 
-      <section id="projects"></section>
+      <!-- Projects Section -->
+      <section id="projects">
+        <div class="container">
+          <h2>Projects</h2>
+          <div class="projects-grid">
+            <article class="project-card">
+              <img />
+              <div class="project-content">
+                <span class="project-tag">JavaScript</span>
+                <h3>Project Name</h3>
+                <p>Short description of project...</p>
+              </div>
+            </article>
 
-      <section id="contact"></section>
+            <article class="project-card">
+              <img />
+              <div class="project-content">
+                <span class="project-tag">React</span>
+                <h3>Project Name</h3>
+                <p>Short description of project...</p>
+              </div>
+            </article>
+
+            <article class="project-card">
+              <img />
+              <div class="project-content">
+                <span class="project-tag">Backend API</span>
+                <h3>Project Name</h3>
+                <p>Short description of project...</p>
+              </div>
+            </article>
+
+            <article class="project-card">
+              <img />
+              <div class="project-content">
+                <span class="project-tag">Fullstack App</span>
+                <h3>Project Name</h3>
+                <p>Short description of project...</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact Section -->
+      <section id="contact">
+        <div id="contact-container">
+          <i class="fa-brands fa-instagram fa-xl fa-icon"></i>
+          <i class="fa-brands fa-square-github fa-xl fa-icon"></i>
+        </div>
+      </section>
     </main>
 
     <script src="index.js"></script>
